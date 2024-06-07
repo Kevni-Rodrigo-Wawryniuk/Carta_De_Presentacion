@@ -1,14 +1,22 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+//import { useState } from 'react'
+//import reactLogo from './assets/react.svg'
+//import viteLogo from '/vite.svg'
 import './App.css'
+import { Routes, Route } from 'react-router';
+
+import { Presentacion02 } from './pages/page';
 
 function App() {
-  const [count, setCount] = useState(0)
+  //const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
+      <Routes>
+        <Route path='/' element={<Presentacion02 />} />
+
+      </Routes>
+
+      {/* <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -28,6 +36,7 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+  */}
     </>
   )
 }
