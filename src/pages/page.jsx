@@ -9,6 +9,6 @@
 // export const Presentacion01 = () => <Presentacion_01/>;
 
 // PRESENTACION _02
-import Presentacion_02 from "../componentes/Presentacion_02/Presentacion_02.jsx";
+import Presentacion_02 from "../componentes/Presentacion_02/Presentacion_02";
 
-export const Presentacion02 = () => <Presentacion_02/>;
+export const Presentacion_02s = () => <Presentacion_02/>;
