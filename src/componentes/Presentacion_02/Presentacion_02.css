@@ -3,7 +3,6 @@
     padding: 0;
 }
 
-@media screen and (max-width: 2650px) {
 
     :root {
         --textos-h1: 50px;
@@ -298,4 +297,3 @@
     div {
         background: radial-gradient(#7EFAFF, #13ABC4, #3161A3)
     }
-}
