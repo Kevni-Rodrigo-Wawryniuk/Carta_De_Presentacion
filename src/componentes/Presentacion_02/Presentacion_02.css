@@ -55,7 +55,9 @@
     }
 
     header ul li:hover {
-        background: linear-gradient(to left, #F7F7F8, #4EEAF6);
+        background-color: transparent;
+        border: 1px solid #F6F4EB;
+        border-radius: 20px 0 20px 0;
     }
 
     #labelHeaders {
@@ -381,7 +383,10 @@
     }
 
     header ul li:hover {
-        background: linear-gradient(to left, #F7F7F8, #4EEAF6);
+        background:  radial-gradient(#F6F4EB, #91C8E4, #749BC2, #4682A9);
+        color: black;
+        border: 1px solid #F6F4EB;
+        border-radius: 20px 0 20px 0;
     }
 
     #labelHeaders {
