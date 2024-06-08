@@ -113,7 +113,7 @@ function Presentacion_02() {
                 <ul>
                     <li><a href="https://www.instagram.com/kevinwawryniuk/"> <img id='logosEnlaces' src={instagram} alt="" /> </a></li>
                     <li><a href="https://github.com/Kevni-Rodrigo-Wawryniuk?tab=repositories"> <img id='logosEnlaces' src={github} alt="" /> </a></li>
-                    <li> <a href="https://wa.me/5493764582381" > <img id='logosEnlaces' src={whatsap} alt="logo whatsap" /></a></li>
+                    <li> <a href="https://api.whatsapp.com/send/?phone=5493764582381&text&type=phone_number&app_absent=0" > <img id='logosEnlaces' src={whatsap} alt="logo whatsap" /></a></li>
                     <li><a href="https://www.linkedin.com/in/kevin-rodrigo-wawryniuk-7932a020b/"> <img id='logosEnlaces' src={linkedin} alt="" /> </a></li>
                     <li><a href="https://kwawryniuk.itch.io"> <img id='logosEnlaces' src={itch} alt="" /> </a></li>
                 </ul>
