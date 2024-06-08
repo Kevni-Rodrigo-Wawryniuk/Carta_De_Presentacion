@@ -19,7 +19,9 @@ function Presentacion_02() {
     return (
         <>
             <header>
+
                 <h1>Kevin Rodrigo Wawryniuk </h1>
+                
                 <h2>Programador</h2>
                 <ul>
                     {/* el id esta sin uso en css*/}
