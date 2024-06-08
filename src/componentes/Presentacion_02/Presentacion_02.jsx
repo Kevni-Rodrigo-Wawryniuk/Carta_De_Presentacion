@@ -5,7 +5,7 @@ import './Presentacion_02.css';
 import foto from '../images/Presentacion_01/Foto_Perfil.jpeg';
 import instagram from '../images/Presentacion_01/logoinstagram.png';
 import github from '../images/Presentacion_01/logogithub.png';
-import linkedin from '../images/Presentacion_01/logolinkedin.png';
+import linkedin from '../images/Presentacion_01/logo_Linkedin.png';
 import itch from '../images/Presentacion_01/logoitch.png';
 
 
