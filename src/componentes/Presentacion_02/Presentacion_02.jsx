@@ -41,7 +41,7 @@ function Presentacion_02() {
                             <p id='brevePresentacion'>
                                 Programador dinámico con conocimientos sólidos en HTML-CSS y dominio en lenguajes tales como (C, C++, C#, Java, JavaScript, Python, TypeScript).
                                 Tengo Capacitación en Auxiliar de farmacia.
-                                Soy una persona responsable me gusta la puntualidad el orden y cumplir con los objetivos propuestos en tiempo y forma me gusta trabaja en equipo considero que proporciona una mejor visión de lo que se quiere conseguir y un mejor resultado final.
+                                Soy una persona responsable me gusta la puntualidad el orden y cumplir con los objetivos propuestos en tiempo y forma tambien considero que el trabajo en equipo proporciona una mejor visión de lo que se quiere conseguir y un mejor resultado final.
                             </p>
                         </article>
                     </section>

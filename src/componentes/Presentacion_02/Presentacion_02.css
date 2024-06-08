@@ -15,9 +15,6 @@
         --textos-p: 25px;
         --textos-b: 15px;
         --texto-strong: 20px;
-
-        --texto-table--thead: 20px;
-        --texto-table--tbody: 20px;
     }
 
     header {
@@ -332,22 +329,18 @@
         background: #4682A9;
     }
 }
-
 @media screen and (max-width: 400px) {
 
     :root {
-        --textos-h1: 25px;
+        --textos-h1: 20px;
         /* --textos-h2: 80px;     */
         --textos-h3: 20px;
 
         --textos-labels: 20px;
 
-        --textos-p: 16px;
-        --textos-b: 15px;
-        --texto-strong: 20px;
-
-        --texto-table--thead: 20px;
-        --texto-table--tbody: 20px;
+        --textos-p: 12px;
+        --textos-b: 10px;
+        --texto-strong: 10px;
     }
 
     header {
@@ -360,19 +353,21 @@
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
+        color: #F6F4EB;
+        background: linear-gradient(#F6F4EB, #91C8E4, #749BC2, #4682A9);
         box-sizing: border-box;
     }
 
     header h1,
     h2 {
         font-size: var(--textos-h1);
-        margin: 1.5rem 0 0 0;
+        margin: 1rem 0 0 0;
         text-decoration: underline;
     }
 
     header ul {
         width: 100%;
-        margin: 1.5rem 0 0 0;
+        margin: 1rem 0 0 0;
         list-style: none;
         display: flex;
         flex-direction: row;
@@ -398,10 +393,11 @@
 
     main {
         width: 100%;
-        margin: 0;
+        margin: 0 0 0 0;
         padding: 0;
         position: absolute;
-        top: 30%;
+        top: 23%;
+        color: #F6F4EB;
         box-sizing: border-box;
     }
 
@@ -422,11 +418,10 @@
 
     #SeccionPresentacion h3 {
         width: 100%;
-        margin: 0;
+        margin: 1rem 0 1rem 0;
         padding: 0;
         text-decoration: underline;
         font-size: var(--textos-h3);
-        color: #344C64;
         text-shadow: 6px 0 5px;
     }
 
@@ -434,15 +429,15 @@
         width: 100%;
         margin: 0 0 0 0;
         padding: 0;
-        display: grid;
-        grid-template-columns: 30% 70%;
+        display: flex;
+        flex-direction: column;
         align-items: center;
         justify-items: center;
         box-sizing: border-box;
     }
 
     #fotoPerfil {
-        width: 80%;
+        width: 40%;
         margin: 0;
         padding: 0 0 0 0;
         border-radius: 0 50% 0 50%;
@@ -452,13 +447,12 @@
     #brevePresentacion {
         width: 100%;
         margin: 0;
-        padding: 1rem;
+        padding: 2rem 2rem 0 2rem;
         font-size: var(--textos-p);
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: justify;
-        color: #3161A3;
         text-shadow: 5px 0px 5px;
         box-sizing: border-box;
     }
@@ -477,13 +471,21 @@
         box-sizing: border-box;
     }
 
+    #secciones {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+    }
+
     #sectionHabilidades h3 {
         width: 100%;
         margin: 0;
         padding: 0;
         text-decoration: underline;
         font-size: var(--textos-h3);
-        color: #344C64;
         text-shadow: 8px 0px 8px;
     }
 
@@ -499,99 +501,110 @@
         margin: 0;
         padding: 0;
         font-size: var(--textos-b);
-        color: #344C64;
         text-shadow: 4px 2px 5px;
     }
 
     #sectionHabilidades strong {
-        color: #4EEAF6;
         text-shadow: 5px 0px 5px;
+    }
+
+    #lenguajes {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+    }
+
+    #programas {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
     }
 
     #fondoBarra {
         width: 100%;
-        height: 20px;
+        height: 10px;
         margin: 0;
         padding: 0;
         border-radius: 40px;
 
         display: flex;
+        flex-direction: row;
         align-items: center;
-        flex-direction: row-reverse;
         justify-content: space-between;
+        text-align: end;
 
         font-size: var(--texto-strong);
-        background-color: #240750;
+        background-color: #749BC2;
     }
+
+    /* barra de Programas*/
 
     #barra70 {
         width: 70%;
         height: 100%;
         border-radius: 40px;
-        background: linear-gradient(to right, #344C64, #577B8D, #57A6A1);
+        background: linear-gradient(to left, #F6F4EB, #91C8E4);
     }
 
     #barra30 {
         width: 30%;
         height: 100%;
         border-radius: 40px;
-        background: linear-gradient(to right, #344C64, #577B8D, #57A6A1);
+        background: linear-gradient(to left, #F6F4EB, #91C8E4);
     }
 
     #barra20 {
         width: 20%;
         height: 100%;
         border-radius: 40px;
-        background: linear-gradient(to right, #344C64, #577B8D, #57A6A1);
+        background: linear-gradient(to left, #F6F4EB, #91C8E4);
     }
 
+    #cargar {
+        width: 1%;
+        height: 100%;
 
-    #sectionEstudios {
-        width: 100%;
-        margin: 0;
-        padding: 0%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        box-sizing: border-box;
+        border-radius: 50px;
+        background: linear-gradient(to right, #749bc236, #91c8e463);
+
+        animation: cargandoBarra 3s linear infinite;
     }
 
-    #sectionEstudios h3 {
-        width: 100%;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        font-size: var(--textos-h3);
-        text-decoration: underline;
-        color: #344C64;
-        text-shadow: 5px 0 5px;
+    #barra40 {
+        width: 40%;
+        height: 100%;
+        border-radius: 40px;
+        background: linear-gradient(to left, #F6F4EB, #91C8E4);
     }
 
-    table {
-        width: 100%;
-        border-collapse: collapse;
-        box-sizing: border-box;
+    #barra5 {
+        width: 1%;
+        height: 30%;
+        border-radius: 40px;
+        background: linear-gradient(to left, #F6F4EB, #91C8E4);
     }
 
-    table thead {
-        font-size: var(--texto-table--thead);
-        font-family: 'Courier New', Courier, monospace;
-        color: #3161A3;
-        text-shadow: 5px 0px 5px;
-    }
+    @keyframes cargandoBarra {
+        0% {
+            width: 0%;
+            height: 0%;
+        }
 
-    table tr {
-        border-bottom: 2px solid black;
+        100% {
+            width: 100%;
+            height: 100%;
+        }
     }
-
-    table tbody {
-        font-size: var(--texto-table--tbody);
-        font-family: 'Courier New', Courier, monospace;
-        color: #3161A3;
-        text-shadow: 5px 0px 5px;
-    }
-
 
 
     footer {
@@ -603,6 +616,7 @@
         align-items: center;
         position: absolute;
         bottom: 0;
+        background: linear-gradient(to top, #F6F4EB, #91C8E4, #749BC2, #4682A9);
         box-sizing: border-box;
     }
 
@@ -623,22 +637,23 @@
 
     footer ul li a {
         width: 40%;
-        border-radius: 50% 100px 50% 100px;
+        border-radius: 50%;
+        background: #F6F4EB;
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
     footer ul li a:hover {
-        background-color: aqua;
+        background-color: #4682A9;
     }
 
     #logosEnlaces {
-        width: 80%;
+        width: 100%;
         border-radius: 50%;
     }
 
     div {
-        background: radial-gradient(#7EFAFF, #13ABC4, #3161A3)
+        background: #4682A9;
     }
 }
