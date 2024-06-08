@@ -25,15 +25,13 @@ function Presentacion_02() {
                     {/* el id esta sin uso en css*/}
                     <li> <label id='labelHeaders' htmlFor='presentacion'> Presentacion </label> </li>
                     <li> <label id='labelHeaders' htmlFor='habilidades'> Habilidades </label> </li>
-                    <li> <label id='labelHeaders' htmlFor='estudios'> Estudios </label> </li>
-                </ul>
+              </ul>
             </header>
             <main>
 
                 <input id='presentacion' className='esconderInputs' name='p' type="radio" value={'Presentacion'} checked={seleccion === 'Presentacion'} onChange={(event) => seleccionarPantalla(event.target.value)} />
                 <input id='habilidades' className='esconderInputs' name='p' type="radio" value={'Habilidades'} checked={seleccion === 'Habilidades'} onChange={(event) => seleccionarPantalla(event.target.value)} />
-                <input id='estudios' className='esconderInputs' name='p' type="radio" value={'Estudios'} checked={seleccion === 'Estudios'} onChange={(event) => seleccionarPantalla(event.target.value)} />
-
+             
                 {/* PRESENTACION PERSONAL  */}
                 {seleccion === 'Presentacion' && (
                     <section id='SeccionPresentacion'>
@@ -72,53 +70,6 @@ function Presentacion_02() {
                             <b>  Python </b>
                             <li> <span id='fondoBarra'> <strong> 20% </strong><span id='barra20'> </span> </span> </li>
                         </ul>
-                    </section>
-                )}
-                {/* COLOCAR LOS ESTUDIOS */}
-                {seleccion === 'Estudios' && (
-                    <section id='sectionEstudios'>
-                        <h3>Estudios</h3>
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Estudios</th>
-                                    <th>Curso/Carrera</th>
-                                    <th>Institutos</th>
-                                    <th>Tiempo de cursado</th>
-                                    <th>Terminados</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Instalacion de camaras</td>
-                                    <td>Curso</td>
-                                    <td>Fundacion Alfa</td>
-                                    <td> 2024 </td>
-                                    <td> Cursando </td>
-                                </tr>
-                                <tr>
-                                    <td>Instalacion de aires acondicionados</td>
-                                    <td>Curso</td>
-                                    <td>Fundacion Alfa</td>
-                                    <td> 2024 </td>
-                                    <td> Cursando </td>
-                                </tr>
-                                <tr>
-                                    <td>Auxiliar de farmacia</td>
-                                    <td>Curso</td>
-                                    <td>Madhel</td>
-                                    <td> 2023 </td>
-                                    <td> Terminado </td>
-                                </tr>
-                                <tr>
-                                    <td> Instituto de Enzeñanza Agropecuaria</td>
-                                    <td>Secundaria</td>
-                                    <td>I.E.A.N°7</td>
-                                    <td> 2014 / 2019 </td>
-                                    <td> Terminado </td>
-                                </tr>
-                            </tbody>
-                        </table>
                     </section>
                 )}
             </main>
