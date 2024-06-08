@@ -383,7 +383,7 @@
         display: flex;
         justify-content: center;
     }
-
+    
     header ul li:hover {
         background: radial-gradient(#F6F4EB, #91C8E4, #749BC2, #4682A9);
         color: black;
