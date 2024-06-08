@@ -47,6 +47,7 @@
         flex-direction: row;
         justify-content: space-around;
     }
+
     header ul li {
         width: 100%;
         display: flex;
@@ -54,11 +55,12 @@
     }
 
     header ul li:hover {
-        background:  radial-gradient(#F6F4EB, #91C8E4, #749BC2, #4682A9);
+        background: radial-gradient(#F6F4EB, #91C8E4, #749BC2, #4682A9);
         color: black;
         border: 1px solid #F6F4EB;
         border-radius: 20px 0 20px 0;
     }
+
     #labelHeaders {
         margin: 0;
         padding: 0;
@@ -330,6 +332,7 @@
         background: #4682A9;
     }
 }
+
 @media screen and (max-width: 400px) {
 
     :root {
@@ -382,7 +385,7 @@
     }
 
     header ul li:hover {
-        background:  radial-gradient(#F6F4EB, #91C8E4, #749BC2, #4682A9);
+        background: radial-gradient(#F6F4EB, #91C8E4, #749BC2, #4682A9);
         color: black;
         border: 1px solid #F6F4EB;
         border-radius: 20px 0 20px 0;
