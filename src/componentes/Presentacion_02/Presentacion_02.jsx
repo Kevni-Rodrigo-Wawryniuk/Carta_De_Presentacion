@@ -8,6 +8,7 @@ import github from '../images/Presentacion_01/logogithub.png';
 import linkedin from '../images/Presentacion_01/logo_Linkedin.png';
 import itch from '../images/Presentacion_01/logoitch.png';
 import whatsap from '../images/Presentacion_01/logo_Whatsapp.png';
+import discord from '../images/Presentacion_01/DiscordLogo.png';
 
 
 function Presentacion_02() {
@@ -20,7 +21,6 @@ function Presentacion_02() {
     return (
         <>
             <header>
-
                 <h1>Kevin Rodrigo Wawryniuk </h1>
 
                 <h2>Programador</h2>
@@ -114,6 +114,7 @@ function Presentacion_02() {
                     <li><a href="https://www.instagram.com/kevinwawryniuk/"> <img id='logosEnlaces' src={instagram} alt="" /> </a></li>
                     <li><a href="https://github.com/Kevni-Rodrigo-Wawryniuk?tab=repositories"> <img id='logosEnlaces' src={github} alt="" /> </a></li>
                     <li> <a href="https://api.whatsapp.com/send/?phone=5493764582381&text&type=phone_number&app_absent=0" > <img id='logosEnlaces' src={whatsap} alt="logo whatsap" /></a></li>
+                    <li><a href="https://discord.gg/mMdAMRSA"> <img id='logosEnlaces' src={discord} alt="Discord" /></a></li>
                     <li><a href="https://www.linkedin.com/in/kevin-rodrigo-wawryniuk-7932a020b/"> <img id='logosEnlaces' src={linkedin} alt="" /> </a></li>
                     <li><a href="https://kwawryniuk.itch.io"> <img id='logosEnlaces' src={itch} alt="" /> </a></li>
                 </ul>
