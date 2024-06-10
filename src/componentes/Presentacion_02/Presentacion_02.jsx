@@ -8,7 +8,7 @@ import github from '../images/Presentacion_01/logogithub.png';
 import linkedin from '../images/Presentacion_01/logo_Linkedin.png';
 import itch from '../images/Presentacion_01/logoitch.png';
 import whatsap from '../images/Presentacion_01/logo_Whatsapp.png';
-import discord from '../images/Presentacion_01/DiscordLogo.png';
+import discord from '../images/Presentacion_01/logoDiscord.png';
 
 
 function Presentacion_02() {
