@@ -98,7 +98,6 @@
         padding: 0;
         text-decoration: underline;
         font-size: var(--textos-h3);
-        text-shadow: 6px 0 5px;
     }
 
     #articlep {
@@ -129,7 +128,6 @@
         justify-content: center;
         align-items: center;
         text-align: justify;
-        text-shadow: 5px 0px 5px;
         box-sizing: border-box;
     }
 
@@ -162,7 +160,6 @@
         padding: 0;
         text-decoration: underline;
         font-size: var(--textos-h3);
-        text-shadow: 8px 0px 8px;
     }
 
     #sectionHabilidades ul {
@@ -177,11 +174,6 @@
         margin: 0;
         padding: 0;
         font-size: var(--textos-b);
-        text-shadow: 4px 2px 5px;
-    }
-
-    #sectionHabilidades strong {
-        text-shadow: 5px 0px 5px;
     }
 
     #lenguajes {
