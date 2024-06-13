@@ -1,7 +1,6 @@
 import './App.css'
 import 'react';
 import { Routes, Route } from 'react-router';
-
 import { Presentacion_02s } from './pages/page';
 
 function App() {
