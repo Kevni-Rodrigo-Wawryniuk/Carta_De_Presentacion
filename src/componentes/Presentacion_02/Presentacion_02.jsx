@@ -7,6 +7,8 @@ import github from '../images/Presentacion_01/logogithub.png';
 import linkedin from '../images/Presentacion_01/logo_Linkedin.png';
 import itch from '../images/Presentacion_01/logoitch.png';
 import discord from '../images/Presentacion_01/logoDiscord.png';
+import presentacion from '../images/Presentacion_01/Presentacion.png';
+import habilidades from '../images/Presentacion_01/Habilidades.png';
 
 function Presentacion_02() {
 
@@ -24,8 +26,8 @@ function Presentacion_02() {
 
                 <dl>
                     {/* el id esta sin uso en css*/}
-                    <dt> <label htmlFor='presentacion'> Presentacion </label> </dt>
-                    <dt> <label htmlFor='habilidades'> Habilidades </label> </dt>
+                    <dt> <label htmlFor='presentacion'> <img src={presentacion} alt="Presentacion" /> </label> </dt>
+                    <dt> <label htmlFor='habilidades'> <img src={habilidades} alt="Habilidades" /> </label> </dt>
                     {/* <dt> <label id='labelHeaders' htmlFor="projectos"> Projectos </label></dt> */}
                 </dl>
             </header>
