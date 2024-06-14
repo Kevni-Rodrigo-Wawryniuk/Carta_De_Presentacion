@@ -24,8 +24,8 @@ function Presentacion_02() {
 
                 <dl>
                     {/* el id esta sin uso en css*/}
-                    <dt> <label id='labelHeaders' htmlFor='presentacion'> Presentacion </label> </dt>
-                    <dt> <label id='labelHeaders' htmlFor='habilidades'> Habilidades </label> </dt>
+                    <dt> <label htmlFor='presentacion'> Presentacion </label> </dt>
+                    <dt> <label htmlFor='habilidades'> Habilidades </label> </dt>
                     {/* <dt> <label id='labelHeaders' htmlFor="projectos"> Projectos </label></dt> */}
                 </dl>
             </header>
@@ -39,9 +39,9 @@ function Presentacion_02() {
                 {seleccion === 'Presentacion' && (
                     <section id='SeccionPresentacion'>
                         <h3>Un Poco de Mi</h3>
-                        <article id='articlep'>
-                            <img id='fotoPerfil' src={foto} alt="Foto De Kevin" />
-                            <p id='brevePresentacion'>
+                        <article>
+                            <img src={foto} alt="Foto De Kevin" />
+                            <p>
                                 Programador dinámico con sólidos conocimientos en HTML y CSS, y dominio en una variedad de lenguajes de programación incluyendo C, C++, C#, Java, JavaScript, Python y TypeScript.
 
                                 Tengo experiencia en el uso de herramientas como Unity, Microsoft Visual Studio, OpenCobolIDE, Visual Studio Code, Postman, Git Bash, Arduino, MySQL, SQLite, Blender y Android Studio.
@@ -59,28 +59,28 @@ function Presentacion_02() {
                     <section id='sectionHabilidades'>
                         <h3>Habilidades</h3>
 
-                        <section id='secciones'>
+                        <section>
                             <section id='programas'>
-                                <h3> Herraminetas y Tecnologias </h3>
-                                <ul>
+                                <h3> Herraminetas y Tecnologias </h3> 
+                                <ul> 
                                     <b> Unity </b>
-                                    <li> <span id='fondoBarra'> <span id='barra70'> <div id='cargar'> </div> </span> <strong id='textoBarra'> 70% (Intermedio a Avanzado) </strong></span> </li>
+                                    <li> <span id='fondoBarra'> <span id='barra70'> <div id='cargar'> </div> </span> <strong > 70% (Intermedio a Avanzado) </strong></span> </li>
                                     <b> Microsoft VisualStudio </b>
-                                    <li> <span id='fondoBarra'> <span id='barra30'> <div id='cargar'> </div> </span> <strong id='textoBarra'> 30% (Basico a Intermedio)</strong> </span> </li>
+                                    <li> <span id='fondoBarra'> <span id='barra30'> <div id='cargar'> </div> </span> <strong > 30% (Basico a Intermedio)</strong> </span> </li>
                                     <b> VisualStudio Code </b>
-                                    <li> <span id='fondoBarra'> <span id='barra40'> <div id='cargar'> </div> </span> <strong id='textoBarra'> 40% (Intermedio) </strong> </span> </li>
+                                    <li> <span id='fondoBarra'> <span id='barra40'> <div id='cargar'> </div> </span> <strong > 40% (Intermedio) </strong> </span> </li>
                                     <b>  Postman </b>
-                                    <li> <span id='fondoBarra'> <span id='barra30'> <div id='cargar'> </div> </span> <strong id='textoBarra'> 30% (Basico a Intermedio)</strong> </span> </li>
+                                    <li> <span id='fondoBarra'> <span id='barra30'> <div id='cargar'> </div> </span> <strong > 30% (Basico a Intermedio)</strong> </span> </li>
                                     <b>  MySQL </b>
-                                    <li> <span id='fondoBarra'> <span id='barra30'> <div id='cargar'> </div> </span> <strong id='textoBarra'> 30% (Basico a Intermedio)</strong> </span> </li>
+                                    <li> <span id='fondoBarra'> <span id='barra30'> <div id='cargar'> </div> </span> <strong > 30% (Basico a Intermedio)</strong> </span> </li>
                                     <b>  OpenCobolIDE </b>
-                                    <li> <span id='fondoBarra'> <span id='barra20'> <div id='cargar'> </div> </span> <strong id='textoBarra'> 20% (Basico)</strong> </span> </li>
+                                    <li> <span id='fondoBarra'> <span id='barra20'> <div id='cargar'> </div> </span> <strong > 20% (Basico)</strong> </span> </li>
                                     <b> Arduino </b>
-                                    <li> <span id='fondoBarra'> <span id='barra30'> <div id='cargar'> </div> </span> <strong id='textoBarra'> 30% (Basico a Intermedio)</strong> </span> </li>
+                                    <li> <span id='fondoBarra'> <span id='barra30'> <div id='cargar'> </div> </span> <strong > 30% (Basico a Intermedio)</strong> </span> </li>
                                     <b>  Git Bash </b>
-                                    <li> <span id='fondoBarra'> <span id='barra5'> <div id='cargar'> </div> </span> <strong id='textoBarra'> 1% (Muy Basico) </strong> </span> </li>
+                                    <li> <span id='fondoBarra'> <span id='barra5'> <div id='cargar'> </div> </span> <strong > 1% (Muy Basico) </strong> </span> </li>
                                     <b>  Blender </b>
-                                    <li> <span id='fondoBarra'> <span id='barra40'> <div id='cargar'> </div> </span> <strong id='textoBarra'> 40% (Intermedio) </strong> </span> </li>
+                                    <li> <span id='fondoBarra'> <span id='barra40'> <div id='cargar'> </div> </span> <strong > 40% (Intermedio) </strong> </span> </li>
                                 </ul>
                             </section>
 
@@ -88,23 +88,23 @@ function Presentacion_02() {
                                 <h3> Lenguajes de Programacion </h3>
                                 <ul>
                                     <b>  C# </b>
-                                    <li> <span id='fondoBarra'> <span id='barra70'> <div id='cargar'> </div> </span> <strong id='textoBarra'> 70% (Intermedio a Avanzado) </strong></span> </li>
+                                    <li> <span id='fondoBarra'> <span id='barra70'> <div id='cargar'> </div> </span> <strong > 70% (Intermedio a Avanzado) </strong></span> </li>
                                     <b> HTML-CSS</b>
-                                    <li> <span id='fondoBarra'> <span id='barra30'> <div id='cargar'> </div> </span> <strong id='textoBarra'> 30% (Basico a Intermedio)</strong> </span> </li>
+                                    <li> <span id='fondoBarra'> <span id='barra30'> <div id='cargar'> </div> </span> <strong> 30% (Basico a Intermedio)</strong> </span> </li>
                                     <b> C</b>
-                                    <li> <span id='fondoBarra'> <span id='barra30'> <div id='cargar'> </div> </span> <strong id='textoBarra'> 30% (Basico a Intermedio)</strong> </span> </li>
+                                    <li> <span id='fondoBarra'> <span id='barra30'> <div id='cargar'> </div> </span> <strong > 30% (Basico a Intermedio)</strong> </span> </li>
                                     <b>  C++ </b>
-                                    <li> <span id='fondoBarra'> <span id='barra30'> <div id='cargar'> </div> </span> <strong id='textoBarra'> 30% (Basico a Intermedio)</strong> </span> </li>
+                                    <li> <span id='fondoBarra'> <span id='barra30'> <div id='cargar'> </div> </span> <strong > 30% (Basico a Intermedio)</strong> </span> </li>
                                     <b>  JavaScipt </b>
-                                    <li> <span id='fondoBarra'> <span id='barra30'> <div id='cargar'> </div> </span> <strong id='textoBarra'> 30% (Basico a Intermedio)</strong> </span> </li>
+                                    <li> <span id='fondoBarra'> <span id='barra30'> <div id='cargar'> </div> </span> <strong > 30% (Basico a Intermedio)</strong> </span> </li>
                                     <b>  MySQL </b>
-                                    <li> <span id='fondoBarra'> <span id='barra30'> <div id='cargar'> </div> </span> <strong id='textoBarra'> 30% (Basico a Intermedio)</strong> </span> </li>
+                                    <li> <span id='fondoBarra'> <span id='barra30'> <div id='cargar'> </div> </span> <strong > 30% (Basico a Intermedio)</strong> </span> </li>
                                     <b> COBOL</b>
-                                    <li> <span id='fondoBarra'> <span id='barra20'> <div id='cargar'> </div> </span> <strong id='textoBarra'> 20% (Basico)</strong> </span> </li>
+                                    <li> <span id='fondoBarra'> <span id='barra20'> <div id='cargar'> </div> </span> <strong > 20% (Basico)</strong> </span> </li>
                                     <b>  Java </b>
-                                    <li> <span id='fondoBarra'> <span id='barra20'> <div id='cargar'> </div> </span> <strong id='textoBarra'> 20% (Basico)</strong> </span> </li>
+                                    <li> <span id='fondoBarra'> <span id='barra20'> <div id='cargar'> </div> </span> <strong > 20% (Basico)</strong> </span> </li>
                                     <b>  Python </b>
-                                    <li> <span id='fondoBarra'> <span id='barra20'> <div id='cargar'> </div> </span> <strong id='textoBarra'> 20% (Basico) </strong> </span> </li>
+                                    <li> <span id='fondoBarra'> <span id='barra20'> <div id='cargar'> </div> </span> <strong > 20% (Basico) </strong> </span> </li>
                                 </ul>
                             </section>
                         </section>
