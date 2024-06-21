@@ -12,11 +12,50 @@ import discord from '../images/logoDiscord.png';
 // Projectos Web
 import PrimerProjecto from '../images/Projectos/PrimerProjecto.png';
 import presentacion from '../images/Projectos/Presentacion.png';
+import climb from '../images/Projectos/Climb.png';
+import enlacarreterano from '../images/Projectos/EnlaCarreterano.png';
+import spacetravel from '../images/Projectos/spaceTravel.png';
+
+// Tecnologias
+import visual from '../images/Tecnologias/visualstudiocode.svg';
+import recat from '../images/Tecnologias/react.svg';
+import node from '../images/Tecnologias/nodedotjs.svg';
+import vite from '../images/Tecnologias/vite.svg';
+import git from '../images/Tecnologias/git.svg';
+import gith from '../images/Tecnologias/github.svg';
+import unity from '../images/Tecnologias/unity.svg';
+import postman from '../images/Tecnologias/postman.svg';
+import mysql from '../images/Tecnologias/mysql.svg';
 
 function Presentacion() {
+    let labelinicio = document.getElementById('value1')
+    let labelfrontend = document.getElementById('value2')
+    let labelbackend = document.getElementById('value3')
+    let labelvideojuegos = document.getElementById('value4')
 
     const [seleccion, setSeleccion] = useState('Inicio');
     const seleccionarPantalla = async (pantalla) => {
+
+        if (pantalla === 'Inicio') {
+            labelinicio.style.backgroundColor = 'burlywood';
+        } else {
+            labelinicio.style.backgroundColor = 'transparent';
+        }
+        if (pantalla === 'frontend') {
+            labelfrontend.style.backgroundColor = 'burlywood';
+        } else {
+            labelfrontend.style.backgroundColor = 'transparent';
+        }
+        if (pantalla === 'backend') {
+            labelbackend.style.backgroundColor = 'burlywood';
+        } else {
+            labelbackend.style.backgroundColor = 'transparent';
+        }
+        if (pantalla === 'videojuegos') {
+            labelvideojuegos.style.backgroundColor = 'burlywood';
+        } else {
+            labelvideojuegos.style.backgroundColor = 'transparent';
+        }
         setSeleccion(pantalla);
     }
 
@@ -26,10 +65,10 @@ function Presentacion() {
                 <h1> Kevin Rodrigo Wawryniuk </h1>
                 <h2>Programador FullStack</h2>
                 <ul>
-                    <li><label htmlFor="p">Inicio</label></li>
-                    <li><label htmlFor="fe">Frontend</label></li>
-                    <li><label htmlFor="be">Backend</label></li>
-                    <li><label htmlFor="vj">VideoJuegos</label></li>
+                    <li><label id='value1' htmlFor="p">Inicio</label></li>
+                    <li><label id='value2' htmlFor="fe">Frontend</label></li>
+                    <li><label id='value3' htmlFor="be">Backend</label></li>
+                    <li><label id='value4' htmlFor="vj">VideoJuegos</label></li>
                 </ul>
             </header>
 
@@ -61,7 +100,16 @@ function Presentacion() {
                                 Me apasiona resolver desafíos técnicos y optimizar el rendimiento tanto del lado del servidor como del cliente.<br></br>
                                 Estoy comprometido con el aprendizaje continuo de nuevas tecnologías y técnicas para mejorar mis habilidades y ofrecer soluciones innovadoras y de alta calidad, aquí te muestro algunos de mis proyectos realizados.
                             </p>
-                            <ul>
+                            <h3>Tecnologias</h3>
+                            <ul id='ulTecnologias'>
+                                <li> <a href="https://es.react.dev"><img id='react' src={recat} alt="recat" /> </a></li>
+                                <li> <a href="https://vitejs.dev"><img id='vite' src={vite} alt="Vite" /> </a></li>
+                                <li> <a href="https://git-scm.com/doc"><img id='git' src={git} alt="Vite" /> </a></li>
+                                <li><a href="https://docs.github.com/es"><img id='gith' src={gith} alt="" /></a></li>
+                                <li> <a href="https://code.visualstudio.com/docs"><img id='visual' src={visual} alt="Vite" /> </a></li>
+                            </ul>
+                            <h3>Projectos</h3>
+                            <ul id='ulprojectos'>
                                 <li>
                                     <a href="https://github.com/Kevni-Rodrigo-Wawryniuk/Carta_De_Presentacion"> <img src={presentacion} alt="" /></a>
                                     <h3>Carta de Presentacion</h3>
@@ -70,7 +118,7 @@ function Presentacion() {
                                     </p>
                                 </li>
                                 <li>
-                                    <a href="https://github.com/Kevni-Rodrigo-Wawryniuk/Pagina-De-Control-De-Stock">
+                                    <a href="https://github.com/Kevni-Rodrigo-Wawryniuk/final-project-of-the-fullstack-programming-course-Version-0.0">
                                         <img src={PrimerProjecto} alt="" /></a>
                                     <h3>Primer Projecto</h3>
                                     <p>
@@ -96,9 +144,19 @@ function Presentacion() {
 
                                 Me apasiona enfrentar desafíos técnicos complejos y mejorar el rendimiento del servidor mediante técnicas avanzadas de optimización. Estoy comprometido con el aprendizaje continuo de las últimas tecnologías y metodologías en desarrollo backend para ofrecer soluciones innovadoras y de alta calidad que satisfagan las necesidades del negocio y los usuarios finales.
                             </p>
-                            <ul>
+                            <h3>Tecnologias</h3>
+                            <ul id='ulTecnologias'>
+                                <li><a href="https://nodejs.org/docs/latest/api/"><img id='node' src={node} alt="" /></a></li>
+                                <li><a href="https://code.visualstudio.com/docs"><img id='visual' src={visual} alt="" /></a></li>
+                                <li><a href="https://git-scm.com/doc"><img id='git' src={git} alt="" /></a></li>
+                                <li><a href="https://docs.github.com/es"><img id='gith' src={gith} alt="" /></a></li>
+                                <li><a href="https://dev.mysql.com/doc/"><img id='mysql' src={mysql} alt="" /></a></li>
+                                <li><a href="https://www.postman.com/api-documentation-tool/"><img id='post' src={postman} alt="" /></a></li>
+                            </ul>
+                            <h3>Projectos</h3>
+                            <ul id='ulprojectos'>
                                 <li>
-                                    <a href="https://github.com/Kevni-Rodrigo-Wawryniuk/Pagina-De-Control-De-Stock">
+                                    <a href="https://github.com/Kevni-Rodrigo-Wawryniuk/final-project-of-the-fullstack-programming-course-Version-0.0">
                                         <img src={PrimerProjecto} alt="" /></a>
                                     <h3>Primer Projecto
                                         <p>
@@ -121,6 +179,43 @@ function Presentacion() {
                                 Me enfoco en crear experiencias interactivas y divertidas para los usuarios, y estoy emocionado por contribuir a proyectos innovadores en el campo de los videojuegos. <br></br>
                                 Dejo aquí algunos proyectos que puede revisar, y si desea probarlos puede visitar mi página en itch.io.
                             </p>
+                            <h3>Tecnologías</h3>
+                            <ul id='ulTecnologias'>
+                                <li><a href="https://docs.unity.com"><img id='unity' src={unity} alt="" /></a></li>
+                                <li><a href="https://code.visualstudio.com/docs"><img id='visual' src={visual} alt="" /></a></li>
+                                <li><a href="https://docs.github.com/es"><img id='gith' src={gith} alt="" /></a></li>
+                            </ul>
+                            <h3>Projectos</h3>
+                            <ul id='ulProjectos'>
+                                <li>
+                                    <a href="https://kwawryniuk.itch.io/space-travel"> <img src={spacetravel} alt="" /></a>
+                                    <h3>Space Travel</h3>
+                                    <p>
+                                        En el primer nivel del juego, el objetivo es destruir la mayor cantidad de meteoritos dentro del tiempo propuesto. <br></br>
+                                        En el segundo nivel, la meta es llegar hasta el jefe y derrotarlo.
+                                    </p>
+                                </li>
+                                <li>
+                                    <a href="https://kwawryniuk.itch.io/climb">
+                                        <img src={climb} alt="" />
+                                    </a>
+                                    <h3>Climb</h3>
+                                    <p>
+                                        El objetivo es llegar a la cima de la torre.<br></br>
+                                        A medida que avanzas, la dificultad aumenta progresivamente.
+                                    </p>
+                                </li>
+                                <li>
+                                    <a href="https://nespi.itch.io/enlacarreterano">
+                                        <img src={enlacarreterano} alt="" />
+                                    </a>
+                                    <h3>En la Carretera No</h3>
+                                    <p>
+                                        Es un juego desarrollado en una gamejam.
+                                        Es un meshrunner donde el objetivo no es solo esquivar obstáculos, sino también recoger frutas para acercarse al camión que está tirando basura y así detenerlo.
+                                    </p>
+                                </li>
+                            </ul>
                         </article>
                     </section>
                 )}
@@ -128,10 +223,10 @@ function Presentacion() {
             <footer>
                 {/* COLLOCAR LOS HIPERENLAZES */}
                 <ul>
-                    <li><a id='gi' href="https://github.com/Kevni-Rodrigo-Wawryniuk?tab=repositories"> <img src={github} alt="" /> </a></li>
-                    <li><a id='di' href="https://discord.gg/mMdAMRSA"> <img src={discord} alt="Discord" /></a></li>
-                    <li><a id='li' href="https://www.linkedin.com/in/kevin-rodrigo-wawryniuk-7932a020b/"> <img src={linkedin} alt="" /> </a></li>
-                    <li><a id='it' href="https://kwawryniuk.itch.io"> <img src={itch} alt="" /> </a></li>
+                    <li><a href="https://github.com/Kevni-Rodrigo-Wawryniuk?tab=repositories"> <img id='gith' src={github} alt="" /> </a></li>
+                    <li><a href="https://discord.gg/mMdAMRSA"> <img id='dic' src={discord} alt="Discord" /></a></li>
+                    <li><a href="https://www.linkedin.com/in/kevin-rodrigo-wawryniuk-7932a020b/"> <img id='link' src={linkedin} alt="" /> </a></li>
+                    <li><a href="https://kwawryniuk.itch.io"> <img id='itch' src={itch} alt="" /> </a></li>
                 </ul>
             </footer>
         </>
