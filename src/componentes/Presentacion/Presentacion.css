@@ -50,6 +50,22 @@ header {
                 justify-content: center;
             }
         }
+
+        #value1 {
+            border-radius: 20px 20px 0 0;
+        }
+
+        #value2 {
+            border-radius: 20px 20px 0 0;
+        }
+
+        #value3 {
+            border-radius: 20px 20px 0 0;
+        }
+
+        #value4 {
+            border-radius: 20px 20px 0 0;
+        }
     }
 
 
@@ -59,7 +75,7 @@ main {
     width: 100%;
     margin: 0;
     padding: 0;
-    background-color: #4479A1;
+    background-color: burlywood;
 
     input {
         display: none;
