@@ -1,5 +1,5 @@
 import 'react'
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import './Presentacion.css';
 
 import foto from '../images/Foto_Perfil.jpeg';
@@ -33,6 +33,13 @@ function Presentacion() {
     let labelbackend = document.getElementById('value3')
     let labelvideojuegos = document.getElementById('value4')
 
+    useEffect(() => {
+        labelinicio = document.getElementById('value1')
+        labelfrontend = document.getElementById('value2')
+        labelbackend = document.getElementById('value3')
+        labelvideojuegos = document.getElementById('value4');
+        seleccionarPantalla(seleccion);
+    })
     const [seleccion, setSeleccion] = useState('Inicio');
     const seleccionarPantalla = async (pantalla) => {
 
