@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import 'react'
 import { useEffect, useState } from 'react';
 import './Presentacion.css';
@@ -72,7 +73,7 @@ function Presentacion() {
                 <h1> Kevin Rodrigo Wawryniuk </h1>
                 <h2>Programador FullStack</h2>
                 <ul>
-                    <li><label id='value1' htmlFor="p">Inicio</label></li>
+                    <li><label id='value1' htmlFor="p">Iniio</label></li>
                     <li><label id='value2' htmlFor="fe">Frontend</label></li>
                     <li><label id='value3' htmlFor="be">Backend</label></li>
                     <li><label id='value4' htmlFor="vj">VideoJuegos</label></li>
