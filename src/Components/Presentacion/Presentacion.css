@@ -1,0 +1,2317 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: PixelifySans;
+}
+
+@font-face {
+    font-family: PixelifySans;
+    src: url('../Fuentes/Pixelify_Sans/PixelifySans-VariableFont_wght.ttf');
+}
+
+@media (max-height:700px) {
+
+    header {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        background-color: #3ABEF9;
+
+        h1 {
+            width: 100%;
+            margin: 0;
+            font-size: 30px;
+            text-align: center;
+            transition: .5s;
+        }
+
+        h2 {
+            width: 100%;
+            margin: 0;
+            font-size: 25px;
+            text-align: center;
+            transition: .5s;
+        }
+
+        h1:hover, h2:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            width: 60%;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+
+            li {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                label {
+                    width: 100%;
+                    height: 100%;
+                    margin: 0;
+                    padding: 0;
+                    display: flex;
+                    font-size: 18px;
+                    justify-content: center;
+                    align-items: center;
+                    transition: .5s;
+                    cursor: pointer;
+                }
+
+                label:hover {
+                    border-radius: 20px 20px 0 0;
+                    text-decoration: underline;
+                    background-color: #3572EF;
+                }
+            }
+        }
+    }
+
+    .nohide {
+        border-radius: 20px 20px 0 0;
+        text-decoration: underline;
+        background-color: #3572EF;
+    }
+
+    main {
+        width: 100%;
+        margin: 0 0 0 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #3572EF;
+        box-sizing: border-box;
+
+        input {
+            display: none;
+        }
+
+        ::-webkit-scrollbar {
+            display: none;
+        }
+
+        #Seccionfullstack {
+            width: 100%;
+            height: 82vh;
+            margin: 0;
+            padding: 0;
+            overflow-y: auto;
+            overflow: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+            box-sizing: border-box;
+
+            h2 {
+                margin: 2rem 0 2rem 0;
+                font-size: 30px;
+            }
+
+            p {
+                width: 70%;
+                margin: 2rem 0 1rem 0;
+                padding: 0;
+                font-size: 20px;
+                text-align: justify;
+            }
+
+            h3 {
+                width: 100%;
+                margin: 0 0 1rem 0;
+                padding: 0;
+                font-size: 25px;
+                text-align: center;
+            }
+
+            #projectos {
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                box-sizing: border-box;
+
+                h2 {
+                    width: 100%;
+                    margin: 2rem 0 2rem 0;
+                    padding: 0;
+                    text-align: center;
+                }
+
+                ul {
+                    width: 100%;
+                    margin: 0 0 1rem 0;
+                    padding: 0;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    list-style: none;
+
+
+                    #controlStrock {
+                        width: 100%;
+                        margin: 0;
+                        padding: 0;
+                        display: flex;
+                        justify-content: center;
+                        cursor: pointer;
+                        transition: 1s;
+
+                        img {
+                            width: 40%;
+                            margin: 0;
+                            padding: 0;
+                            border-radius: 20px;
+                        }
+
+                        a {
+                            width: 100%;
+                            margin: 0;
+                            padding: 0;
+                            display: flex;
+                            justify-content: center;
+                            color: black;
+                            text-decoration: none;
+                        }
+
+                        div {
+                            display: none;
+                        }
+
+                    }
+
+                    #controlStrock:hover {
+                        width: 100%;
+                        border-radius: 20px;
+
+                        img {
+                            width: 40%;
+                            margin: 0;
+                            padding: 0;
+                            border-radius: 20px;
+                            color: inherit;
+                            text-decoration: none;
+                        }
+
+                        div {
+                            width: 50%;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+
+                            h2 {
+                                margin: 2rem 0 2rem 0;
+                                text-decoration: underline;
+                                color: black;
+                                text-decoration: none;
+                            }
+
+                            p {
+                                width: 90%;
+                                margin: 2rem 0 2rem 0;
+                                font-size: 15px;
+                                color: black;
+                                text-decoration: none;
+                            }
+                        }
+
+                    }
+                }
+            }
+
+            #tecnologias {
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                box-sizing: border-box;
+
+                ul {
+                    width: 50%;
+                    margin: 0 0 7rem 0;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+
+                    img {
+                        width: 8%;
+                        margin: 0;
+                        padding: 0;
+                        transition: .4s;
+                        cursor: pointer;
+                    }
+
+                    #node:hover {
+                        width: 10%;
+                        margin: 0;
+                        padding: 0;
+                        border-radius: 50%;
+                        background-color: #5CAD47;
+                    }
+
+                    #react:hover {
+                        width: 10%;
+                        margin: 0;
+                        padding: 0;
+                        border-radius: 50%;
+                        background-color: #1399C4;
+                    }
+
+                    #visual:hover {
+                        width: 10%;
+                        margin: 0;
+                        padding: 0;
+                        border-radius: 50%;
+                        background-color: #24A9EC;
+                    }
+
+                    #vite:hover {
+                        width: 10%;
+                        margin: 0;
+                        padding: 0;
+                        border-radius: 50%;
+                        background-color: #A157FE;
+                    }
+
+                    #git:hover {
+                        width: 10%;
+                        margin: 0;
+                        padding: 0;
+                        border-radius: 50%;
+                        background-color: #E84E31;
+                    }
+
+                    #github:hover {
+                        width: 10%;
+                        margin: 0;
+                        padding: 0;
+                        border-radius: 50%;
+                        background-color: white;
+                    }
+
+                    #postman:hover {
+                        width: 10%;
+                        margin: 0;
+                        padding: 0;
+                        border-radius: 50%;
+                        background-color: #E76A3D;
+                    }
+
+                    #mysql:hover {
+                        width: 10%;
+                        margin: 0;
+                        padding: 0;
+                        border-radius: 50%;
+                        background-color: #015B85;
+                    }
+                }
+            }
+        }
+
+        #SeccionUnity {
+            width: 100%;
+            height: 85vh;
+            margin: 0;
+            padding: 0;
+            overflow: scroll;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+            box-sizing: border-box;
+
+            h2 {
+                margin: 4rem 0 4rem 0;
+                font-size: 30px;
+            }
+
+            p {
+                width: 70%;
+                margin: 3rem 0 5rem 0;
+                font-size: 20px;
+                text-align: justify;
+            }
+
+            #projectosVJ {
+                width: 100%;
+                margin: 0 0 0 0;
+                padding: 0;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                box-sizing: border-box;
+
+                ul {
+                    width: 100%;
+                    margin: 0 0 5rem 0;
+                    padding: 0;
+                    list-style: none;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    align-items: center;
+
+                    #climb, #spaceTravel, #enlacarreterano {
+                        width: 100%;
+                        margin: 0 0 0 0;
+                        padding: 0;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        cursor: pointer;
+
+                        a {
+                            width: 100%;
+                            height: 50%;
+                            margin: 0;
+                            padding: 0;
+                            display: flex;
+                            justify-content: center;
+                            color: black;
+                            text-decoration: none;
+
+                            img {
+                                width: 30%;
+                                margin: 0;
+                                padding: 0;
+                                border-radius: 20px;
+                            }
+
+                            div {
+                                display: none;
+                            }
+                        }
+
+
+                    }
+
+                    #climb:hover, #spaceTravel:hover, #enlacarreterano:hover {
+                        a {
+                            width: 100%;
+                            margin: 0;
+                            padding: 0;
+                            display: flex;
+                            justify-content: center;
+                            color: black;
+                            text-decoration: none;
+
+                            img {
+                                width: 30%;
+                                margin: 0;
+                                padding: 0;
+                                border-radius: 20px;
+                            }
+
+                            div {
+                                width: 50%;
+                                display: block;
+                                justify-content: center;
+                                align-items: center;
+
+                                h3 {
+                                    width: 100%;
+                                    margin: 2rem 0 1rem 0;
+                                }
+
+                                p {
+                                    width: 100%;
+                                    margin: 1rem 0 1rem 0;
+                                    padding: 1rem;
+                                    font-size: 15px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            #tecnologiasVJ {
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+
+                ul {
+                    width: 40%;
+                    margin: 0 0 7rem 0;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+
+                    img {
+                        width: 15%;
+                        margin: 0;
+                        padding: 0;
+                        transition: .5s;
+                    }
+
+                    #asprite:hover {
+                        width: 16%;
+                        margin: 0;
+                        padding: 0;
+                        border-radius: 50%;
+                        background-color: grey;
+                    }
+
+                    #unity:hover {
+                        width: 16%;
+                        margin: 0;
+                        padding: 0;
+                        border-radius: 50%;
+                        background-color: white;
+                    }
+
+                    #visualc:hover {
+                        width: 16%;
+                        margin: 0;
+                        padding: 0;
+                        border-radius: 50%;
+                        background-color: #24A9EC;
+                    }
+
+                    #gith:hover {
+                        width: 16%;
+                        margin: 0;
+                        padding: 0;
+                        border-radius: 50%;
+                        background-color: white;
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        width: 100%;
+        height: 30px;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        display: flex;
+        align-content: center;
+        justify-content: end;
+        background-color: transparent;
+        box-sizing: border-box;
+        background-color: #050C9C;
+
+        ul {
+            width: 10%;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            justify-items: center;
+
+            li {
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                a {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    img {
+                        width: 100%;
+                        margin: 0;
+                        padding: 0;
+                        transition: .5s;
+                    }
+                }
+
+            }
+        }
+
+        #gith:hover {
+            border-radius: 50%;
+            background-color: white;
+        }
+
+        #dic:hover {
+            border-radius: 50%;
+            background-color: #5865F2;
+        }
+
+        #link:hover {
+            border-radius: 50%;
+            background-color: #0A66C2;
+        }
+
+        #itch:hover {
+            border-radius: 50%;
+            background-color: #FA5C5C;
+        }
+    }
+}
+
+@media (max-height:600px) {
+
+    header {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        background-color: #3ABEF9;
+
+        h1 {
+            width: 100%;
+            margin: 0;
+            font-size: 30px;
+            text-align: center;
+            transition: .5s;
+        }
+
+        h2 {
+            width: 100%;
+            margin: 0;
+            font-size: 25px;
+            text-align: center;
+            transition: .5s;
+        }
+
+        h1:hover, h2:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            width: 60%;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+
+            li {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                label {
+                    width: 100%;
+                    height: 100%;
+                    margin: 0;
+                    padding: 0;
+                    display: flex;
+                    font-size: 18px;
+                    justify-content: center;
+                    align-items: center;
+                    transition: .5s;
+                    cursor: pointer;
+                }
+
+                label:hover {
+                    border-radius: 20px 20px 0 0;
+                    text-decoration: underline;
+                    background-color: #3572EF;
+                }
+            }
+        }
+    }
+
+    .nohide {
+        border-radius: 20px 20px 0 0;
+        text-decoration: underline;
+        background-color: #3572EF;
+    }
+
+    main {
+        width: 100%;
+        margin: 0 0 0 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #3572EF;
+        box-sizing: border-box;
+
+        input {
+            display: none;
+        }
+
+        ::-webkit-scrollbar {
+            display: none;
+        }
+
+        #Seccionfullstack {
+            width: 100%;
+            height: 82vh;
+            margin: 0;
+            padding: 0;
+            overflow-y: auto;
+            overflow: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+            box-sizing: border-box;
+
+            h2 {
+                margin: 2rem 0 2rem 0;
+                font-size: 30px;
+            }
+
+            p {
+                width: 70%;
+                margin: 2rem 0 1rem 0;
+                padding: 0;
+                font-size: 20px;
+                text-align: justify;
+            }
+
+            h3 {
+                width: 100%;
+                margin: 0 0 1rem 0;
+                padding: 0;
+                font-size: 25px;
+                text-align: center;
+            }
+
+            #projectos {
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                box-sizing: border-box;
+
+                h2 {
+                    width: 100%;
+                    margin: 2rem 0 2rem 0;
+                    padding: 0;
+                    text-align: center;
+                }
+
+                ul {
+                    width: 100%;
+                    margin: 0 0 1rem 0;
+                    padding: 0;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    list-style: none;
+
+
+                    #controlStrock {
+                        width: 100%;
+                        margin: 0;
+                        padding: 0;
+                        display: flex;
+                        justify-content: center;
+                        cursor: pointer;
+                        transition: 1s;
+
+                        img {
+                            width: 40%;
+                            margin: 0;
+                            padding: 0;
+                            border-radius: 20px;
+                        }
+
+                        a {
+                            width: 100%;
+                            margin: 0;
+                            padding: 0;
+                            display: flex;
+                            justify-content: center;
+                            color: black;
+                            text-decoration: none;
+                        }
+
+                        div {
+                            display: none;
+                        }
+
+                    }
+
+                    #controlStrock:hover {
+                        width: 100%;
+                        border-radius: 20px;
+
+                        img {
+                            width: 40%;
+                            margin: 0;
+                            padding: 0;
+                            border-radius: 20px;
+                            color: inherit;
+                            text-decoration: none;
+                        }
+
+                        div {
+                            width: 50%;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+
+                            h2 {
+                                margin: 2rem 0 2rem 0;
+                                text-decoration: underline;
+                                color: black;
+                                text-decoration: none;
+                            }
+
+                            p {
+                                width: 90%;
+                                margin: 2rem 0 2rem 0;
+                                font-size: 15px;
+                                color: black;
+                                text-decoration: none;
+                            }
+                        }
+
+                    }
+                }
+            }
+
+            #tecnologias {
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                box-sizing: border-box;
+
+                ul {
+                    width: 50%;
+                    margin: 0 0 7rem 0;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+
+                    img {
+                        width: 8%;
+                        margin: 0;
+                        padding: 0;
+                        transition: .4s;
+                        cursor: pointer;
+                    }
+
+                    #node:hover {
+                        width: 10%;
+                        margin: 0;
+                        padding: 0;
+                        border-radius: 50%;
+                        background-color: #5CAD47;
+                    }
+
+                    #react:hover {
+                        width: 10%;
+                        margin: 0;
+                        padding: 0;
+                        border-radius: 50%;
+                        background-color: #1399C4;
+                    }
+
+                    #visual:hover {
+                        width: 10%;
+                        margin: 0;
+                        padding: 0;
+                        border-radius: 50%;
+                        background-color: #24A9EC;
+                    }
+
+                    #vite:hover {
+                        width: 10%;
+                        margin: 0;
+                        padding: 0;
+                        border-radius: 50%;
+                        background-color: #A157FE;
+                    }
+
+                    #git:hover {
+                        width: 10%;
+                        margin: 0;
+                        padding: 0;
+                        border-radius: 50%;
+                        background-color: #E84E31;
+                    }
+
+                    #github:hover {
+                        width: 10%;
+                        margin: 0;
+                        padding: 0;
+                        border-radius: 50%;
+                        background-color: white;
+                    }
+
+                    #postman:hover {
+                        width: 10%;
+                        margin: 0;
+                        padding: 0;
+                        border-radius: 50%;
+                        background-color: #E76A3D;
+                    }
+
+                    #mysql:hover {
+                        width: 10%;
+                        margin: 0;
+                        padding: 0;
+                        border-radius: 50%;
+                        background-color: #015B85;
+                    }
+                }
+            }
+        }
+
+        #SeccionUnity {
+            width: 100%;
+            height: 82vh;
+            margin: 0;
+            padding: 0;
+            overflow: scroll;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+            box-sizing: border-box;
+
+            h2 {
+                margin: 2rem 0 2rem 0;
+                font-size: 30px;
+            }
+
+            p {
+                width: 70%;
+                margin: 2rem 0 2rem 0;
+                font-size: 20px;
+                text-align: justify;
+            }
+
+            #projectosVJ {
+                width: 100%;
+                margin: 0 0 0 0;
+                padding: 0;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                box-sizing: border-box;
+
+                ul {
+                    width: 100%;
+                    margin: 0 0 1rem 0;
+                    padding: 0;
+                    list-style: none;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    align-items: center;
+
+                    #climb, #spaceTravel, #enlacarreterano {
+                        width: 100%;
+                        margin: 0 0 0 0;
+                        padding: 0;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        cursor: pointer;
+
+                        a {
+                            width: 100%;
+                            height: 50%;
+                            margin: 0;
+                            padding: 0;
+                            display: flex;
+                            justify-content: center;
+                            color: black;
+                            text-decoration: none;
+
+                            img {
+                                width: 30%;
+                                margin: 0;
+                                padding: 0;
+                                border-radius: 20px;
+                            }
+
+                            div {
+                                display: none;
+                            }
+                        }
+
+
+                    }
+
+                    #climb:hover, #spaceTravel:hover, #enlacarreterano:hover {
+                        a {
+                            width: 100%;
+                            margin: 0;
+                            padding: 0;
+                            display: flex;
+                            justify-content: center;
+                            color: black;
+                            text-decoration: none;
+
+                            img {
+                                width: 30%;
+                                margin: 0;
+                                padding: 0;
+                                border-radius: 20px;
+                            }
+
+                            div {
+                                width: 50%;
+                                display: block;
+                                justify-content: center;
+                                align-items: center;
+
+                                h3 {
+                                    width: 100%;
+                                    margin: 1rem 0 1rem 0;
+                                }
+
+                                p {
+                                    width: 100%;
+                                    margin: 1rem 0 1rem 0;
+                                    padding: 1rem;
+                                    font-size: 15px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            #tecnologiasVJ {
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+
+                ul {
+                    width: 40%;
+                    margin: 0 0 4rem 0;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+
+                    img {
+                        width: 15%;
+                        margin: 0;
+                        padding: 0;
+                        transition: .5s;
+                    }
+
+                    #asprite:hover {
+                        width: 16%;
+                        margin: 0;
+                        padding: 0;
+                        border-radius: 50%;
+                        background-color: grey;
+                    }
+
+                    #unity:hover {
+                        width: 16%;
+                        margin: 0;
+                        padding: 0;
+                        border-radius: 50%;
+                        background-color: white;
+                    }
+
+                    #visualc:hover {
+                        width: 16%;
+                        margin: 0;
+                        padding: 0;
+                        border-radius: 50%;
+                        background-color: #24A9EC;
+                    }
+
+                    #gith:hover {
+                        width: 16%;
+                        margin: 0;
+                        padding: 0;
+                        border-radius: 50%;
+                        background-color: white;
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        width: 100%;
+        height: 30px;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        display: flex;
+        align-content: center;
+        justify-content: end;
+        background-color: transparent;
+        box-sizing: border-box;
+        background-color: #050C9C;
+
+        ul {
+            width: 10%;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            justify-items: center;
+
+            li {
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                a {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    img {
+                        width: 100%;
+                        margin: 0;
+                        padding: 0;
+                        transition: .5s;
+                    }
+                }
+
+            }
+        }
+
+        #gith:hover {
+            border-radius: 50%;
+            background-color: white;
+        }
+
+        #dic:hover {
+            border-radius: 50%;
+            background-color: #5865F2;
+        }
+
+        #link:hover {
+            border-radius: 50%;
+            background-color: #0A66C2;
+        }
+
+        #itch:hover {
+            border-radius: 50%;
+            background-color: #FA5C5C;
+        }
+    }
+}
+
+@media (max-height:500px) {
+
+    header {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        background-color: #3ABEF9;
+
+        h1 {
+            width: 100%;
+            margin: 0;
+            font-size: 30px;
+            text-align: center;
+            transition: .5s;
+        }
+
+        h2 {
+            width: 100%;
+            margin: 0;
+            font-size: 25px;
+            text-align: center;
+            transition: .5s;
+        }
+
+        h1:hover, h2:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            width: 60%;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+
+            li {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                label {
+                    width: 100%;
+                    height: 100%;
+                    margin: 0;
+                    padding: 0;
+                    display: flex;
+                    font-size: 18px;
+                    justify-content: center;
+                    align-items: center;
+                    transition: .5s;
+                    cursor: pointer;
+                }
+
+                label:hover {
+                    border-radius: 20px 20px 0 0;
+                    text-decoration: underline;
+                    background-color: #3572EF;
+                }
+            }
+        }
+    }
+
+    .nohide {
+        border-radius: 20px 20px 0 0;
+        text-decoration: underline;
+        background-color: #3572EF;
+    }
+
+    main {
+        width: 100%;
+        margin: 0 0 0 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #3572EF;
+        box-sizing: border-box;
+
+        input {
+            display: none;
+        }
+
+        ::-webkit-scrollbar {
+            display: none;
+        }
+
+        #Seccionfullstack {
+            width: 100%;
+            height: 77vh;
+            margin: 0;
+            padding: 0;
+            overflow-y: auto;
+            overflow: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+            box-sizing: border-box;
+
+            h2 {
+                margin: 2rem 0 1rem 0;
+                font-size: 30px;
+            }
+
+            p {
+                width: 70%;
+                margin: 1rem 0 2rem 0;
+                padding: 0;
+                font-size: 20px;
+                text-align: justify;
+            }
+
+            h3 {
+                width: 100%;
+                margin: 0 0 3rem 0;
+                padding: 0;
+                font-size: 25px;
+                text-align: center;
+            }
+
+            #projectos {
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                box-sizing: border-box;
+
+                h2 {
+                    width: 100%;
+                    margin: 1rem 0 2rem 0;
+                    padding: 0;
+                    text-align: center;
+                }
+
+                ul {
+                    width: 100%;
+                    margin: 0 0 1rem 0;
+                    padding: 0;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    list-style: none;
+
+
+                    #controlStrock {
+                        width: 100%;
+                        margin: 0;
+                        padding: 0;
+                        display: flex;
+                        justify-content: center;
+                        cursor: pointer;
+                        transition: 1s;
+
+                        img {
+                            width: 40%;
+                            margin: 0;
+                            padding: 0;
+                            border-radius: 20px;
+                        }
+
+                        a {
+                            width: 100%;
+                            margin: 0;
+                            padding: 0;
+                            display: flex;
+                            justify-content: center;
+                            color: black;
+                            text-decoration: none;
+                        }
+
+                        div {
+                            display: none;
+                        }
+
+                    }
+
+                    #controlStrock:hover {
+                        width: 100%;
+                        border-radius: 20px;
+
+                        img {
+                            width: 40%;
+                            margin: 0;
+                            padding: 0;
+                            border-radius: 20px;
+                            color: inherit;
+                            text-decoration: none;
+                        }
+
+                        div {
+                            width: 50%;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+
+                            h2 {
+                                margin: 2rem 0 2rem 0;
+                                text-decoration: underline;
+                                color: black;
+                                text-decoration: none;
+                            }
+
+                            p {
+                                width: 90%;
+                                margin: 2rem 0 2rem 0;
+                                font-size: 15px;
+                                color: black;
+                                text-decoration: none;
+                            }
+                        }
+
+                    }
+                }
+            }
+
+            #tecnologias {
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                box-sizing: border-box;
+
+                ul {
+                    width: 50%;
+                    margin: 1rem 0 3rem 0;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+
+                    img {
+                        width: 8%;
+                        margin: 1rem 0 0 0;
+                        padding: 0;
+                        transition: .4s;
+                        cursor: pointer;
+                    }
+
+                    #node:hover {
+                        width: 10%;
+                        margin: 0;
+                        padding: 0;
+                        border-radius: 50%;
+                        background-color: #5CAD47;
+                    }
+
+                    #react:hover {
+                        width: 10%;
+                        margin: 0;
+                        padding: 0;
+                        border-radius: 50%;
+                        background-color: #1399C4;
+                    }
+
+                    #visual:hover {
+                        width: 10%;
+                        margin: 0;
+                        padding: 0;
+                        border-radius: 50%;
+                        background-color: #24A9EC;
+                    }
+
+                    #vite:hover {
+                        width: 10%;
+                        margin: 0;
+                        padding: 0;
+                        border-radius: 50%;
+                        background-color: #A157FE;
+                    }
+
+                    #git:hover {
+                        width: 10%;
+                        margin: 0;
+                        padding: 0;
+                        border-radius: 50%;
+                        background-color: #E84E31;
+                    }
+
+                    #github:hover {
+                        width: 10%;
+                        margin: 0;
+                        padding: 0;
+                        border-radius: 50%;
+                        background-color: white;
+                    }
+
+                    #postman:hover {
+                        width: 10%;
+                        margin: 0;
+                        padding: 0;
+                        border-radius: 50%;
+                        background-color: #E76A3D;
+                    }
+
+                    #mysql:hover {
+                        width: 10%;
+                        margin: 0;
+                        padding: 0;
+                        border-radius: 50%;
+                        background-color: #015B85;
+                    }
+                }
+            }
+        }
+
+        #SeccionUnity {
+            width: 100%;
+            height: 75vh;
+            margin: 0;
+            padding: 0;
+            overflow: scroll;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+            box-sizing: border-box;
+
+            h2 {
+                margin: 2rem 0 2rem 0;
+                font-size: 30px;
+            }
+
+            p {
+                width: 70%;
+                margin: 1rem 0 1rem 0;
+                font-size: 20px;
+                text-align: justify;
+            }
+
+            #projectosVJ {
+                width: 100%;
+                margin: 0 0 0 0;
+                padding: 0;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                box-sizing: border-box;
+
+                ul {
+                    width: 100%;
+                    margin: 0 0 1rem 0;
+                    padding: 0;
+                    list-style: none;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    align-items: center;
+
+                    #climb, #spaceTravel, #enlacarreterano {
+                        width: 100%;
+                        margin: 0 0 0 0;
+                        padding: 0;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        cursor: pointer;
+
+                        a {
+                            width: 100%;
+                            height: 50%;
+                            margin: 0;
+                            padding: 0;
+                            display: flex;
+                            justify-content: center;
+                            color: black;
+                            text-decoration: none;
+
+                            img {
+                                width: 20%;
+                                margin: 0;
+                                padding: 0;
+                                border-radius: 20px;
+                            }
+
+                            div {
+                                display: none;
+                            }
+                        }
+
+
+                    }
+
+                    #climb:hover, #spaceTravel:hover, #enlacarreterano:hover {
+                        a {
+                            width: 100%;
+                            margin: 0;
+                            padding: 0;
+                            display: flex;
+                            justify-content: center;
+                            color: black;
+                            text-decoration: none;
+
+                            img {
+                                width: 25%;
+                                margin: 0;
+                                padding: 0;
+                                border-radius: 20px;
+                            }
+
+                            div {
+                                width: 50%;
+                                display: block;
+                                justify-content: center;
+                                align-items: center;
+
+                                h3 {
+                                    width: 100%;
+                                    margin: 1rem 0 1rem 0;
+                                }
+
+                                p {
+                                    width: 100%;
+                                    margin: 1rem 0 1rem 0;
+                                    padding: 1rem;
+                                    font-size: 15px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            #tecnologiasVJ {
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+
+                ul {
+                    width: 40%;
+                    margin: 1rem 0 2rem 0;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+
+                    img {
+                        width: 15%;
+                        margin: 0;
+                        padding: 0;
+                        transition: .5s;
+                    }
+
+                    #asprite:hover {
+                        width: 16%;
+                        margin: 0;
+                        padding: 0;
+                        border-radius: 50%;
+                        background-color: grey;
+                    }
+
+                    #unity:hover {
+                        width: 16%;
+                        margin: 0;
+                        padding: 0;
+                        border-radius: 50%;
+                        background-color: white;
+                    }
+
+                    #visualc:hover {
+                        width: 16%;
+                        margin: 0;
+                        padding: 0;
+                        border-radius: 50%;
+                        background-color: #24A9EC;
+                    }
+
+                    #gith:hover {
+                        width: 16%;
+                        margin: 0;
+                        padding: 0;
+                        border-radius: 50%;
+                        background-color: white;
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        width: 100%;
+        height: 30px;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        display: flex;
+        align-content: center;
+        justify-content: end;
+        box-sizing: border-box;
+        background-color: #050C9C;
+
+        ul {
+            width: 10%;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            justify-items: center;
+
+            li {
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                a {
+                    width: 90%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    img {
+                        width: 100%;
+                        margin: 0;
+                        padding: 0;
+                        transition: .5s;
+                    }
+                }
+
+            }
+        }
+
+        #gith:hover {
+            border-radius: 50%;
+            background-color: white;
+        }
+
+        #dic:hover {
+            border-radius: 50%;
+            background-color: #5865F2;
+        }
+
+        #link:hover {
+            border-radius: 50%;
+            background-color: #0A66C2;
+        }
+
+        #itch:hover {
+            border-radius: 50%;
+            background-color: #FA5C5C;
+        }
+    }
+}
+
+@media (max-height:400px) {
+
+    header {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h1 {
+            width: 100%;
+            margin: 0;
+            font-size: 30px;
+            text-align: center;
+            transition: .5s;
+        }
+
+        h2 {
+            width: 100%;
+            margin: 0;
+            font-size: 25px;
+            text-align: center;
+            transition: .5s;
+        }
+
+        h1:hover, h2:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            width: 60%;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+
+            li {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                label {
+                    width: 100%;
+                    height: 100%;
+                    margin: 0;
+                    padding: 0;
+                    display: flex;
+                    font-size: 18px;
+                    justify-content: center;
+                    align-items: center;
+                    transition: .5s;
+                    cursor: pointer;
+                }
+
+                label:hover {
+                    border-radius: 20px 20px 0 0;
+                    text-decoration: underline;
+                    background-color: #3572EF;
+                }
+            }
+        }
+    }
+
+    .nohide {
+        border-radius: 20px 20px 0 0;
+        text-decoration: underline;
+        background-color: #3572EF;
+    }
+
+    main {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #3572EF;
+        box-sizing: border-box;
+
+        input {
+            display: none;
+        }
+
+        ::-webkit-scrollbar {
+            display: none;
+        }
+
+        #Seccionfullstack {
+            width: 100%;
+            height: 71vh;
+            margin: 0;
+            padding: 0;
+            overflow-y: auto;
+            overflow: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+            box-sizing: border-box;
+
+            h2 {
+                margin: .5rem 0 0 0;
+                font-size: 20px;
+            }
+
+            p {
+                width: 70%;
+                margin: .5rem 0 1rem 0;
+                padding: 0;
+                font-size: 17px;
+                text-align: justify;
+            }
+
+            h3 {
+                width: 100%;
+                margin: 0 0 2rem 0;
+                padding: 0;
+                font-size: 25px;
+                text-align: center;
+            }
+
+            #projectos {
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                box-sizing: border-box;
+
+                h2 {
+                    width: 100%;
+                    margin: 0rem 0 2rem 0;
+                    padding: 0;
+                    text-align: center;
+                }
+
+                ul {
+                    width: 100%;
+                    margin: 0 0 1rem 0;
+                    padding: 0;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    list-style: none;
+
+
+                    #controlStrock {
+                        width: 100%;
+                        margin: 0;
+                        padding: 0;
+                        display: flex;
+                        justify-content: center;
+                        cursor: pointer;
+                        transition: 1s;
+
+                        img {
+                            width: 30%;
+                            margin: 0;
+                            padding: 0;
+                            border-radius: 20px;
+                        }
+
+                        a {
+                            width: 100%;
+                            margin: 0;
+                            padding: 0;
+                            display: flex;
+                            justify-content: center;
+                            color: black;
+                            text-decoration: none;
+                        }
+
+                        div {
+                            display: none;
+                        }
+
+                    }
+
+                    #controlStrock:hover {
+                        width: 100%;
+                        border-radius: 20px;
+
+                        img {
+                            width: 30%;
+                            margin: 0;
+                            padding: 0;
+                            border-radius: 20px;
+                            color: inherit;
+                            text-decoration: none;
+                        }
+
+                        div {
+                            width: 50%;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+
+                            h2 {
+                                margin: .5rem 0 .5rem 0;
+                                text-decoration: underline;
+                                font-size: 20px;
+                                color: black;
+                                text-decoration: none;
+                            }
+
+                            p {
+                                width: 100%;
+                                margin: 0 0 0 0;
+                                padding: 0;
+                                font-size: 13px;
+                                color: black;
+                                text-decoration: none;
+                            }
+                        }
+
+                    }
+                }
+            }
+
+            #tecnologias {
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                box-sizing: border-box;
+
+                h2{
+                    width: 100%;
+                    text-align: center;
+                    margin: 0 0 .5rem 0;
+                }
+
+                ul {
+                    width: 50%;
+                    margin: 0 0 1rem 0;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+
+                    img {
+                        width: 8%;
+                        margin: 0;
+                        padding: 0;
+                        transition: .4s;
+                        cursor: pointer;
+                    }
+
+                    #node:hover {
+                        width: 10%;
+                        margin: 0;
+                        padding: 0;
+                        border-radius: 50%;
+                        background-color: #5CAD47;
+                    }
+
+                    #react:hover {
+                        width: 10%;
+                        margin: 0;
+                        padding: 0;
+                        border-radius: 50%;
+                        background-color: #1399C4;
+                    }
+
+                    #visual:hover {
+                        width: 10%;
+                        margin: 0;
+                        padding: 0;
+                        border-radius: 50%;
+                        background-color: #24A9EC;
+                    }
+
+                    #vite:hover {
+                        width: 10%;
+                        margin: 0;
+                        padding: 0;
+                        border-radius: 50%;
+                        background-color: #A157FE;
+                    }
+
+                    #git:hover {
+                        width: 10%;
+                        margin: 0;
+                        padding: 0;
+                        border-radius: 50%;
+                        background-color: #E84E31;
+                    }
+
+                    #github:hover {
+                        width: 10%;
+                        margin: 0;
+                        padding: 0;
+                        border-radius: 50%;
+                        background-color: white;
+                    }
+
+                    #postman:hover {
+                        width: 10%;
+                        margin: 0;
+                        padding: 0;
+                        border-radius: 50%;
+                        background-color: #E76A3D;
+                    }
+
+                    #mysql:hover {
+                        width: 10%;
+                        margin: 0;
+                        padding: 0;
+                        border-radius: 50%;
+                        background-color: #015B85;
+                    }
+                }
+            }
+        }
+
+        #SeccionUnity {
+            width: 100%;
+            height: 71vh;
+            margin: 0;
+            padding: 0;
+            overflow: scroll;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+            box-sizing: border-box;
+
+            h2 {
+                margin: 1rem 0 1rem 0;
+                font-size: 20px;
+            }
+
+            p {
+                width: 70%;
+                margin: 0 0 .5rem 0;
+                font-size: 17px;
+                text-align: justify;
+            }
+
+            #projectosVJ {
+                width: 100%;
+                margin: 0 0 0 0;
+                padding: 0;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                box-sizing: border-box;
+                h2{
+                    width: 100%;
+                    text-align: center;
+                    margin: .5rem 0 .5rem 0;
+                }
+
+                ul {
+                    width: 100%;
+                    margin: 0 0 2rem 0;
+                    padding: 0;
+                    list-style: none;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    align-items: center;
+
+                    #climb, #spaceTravel, #enlacarreterano {
+                        width: 100%;
+                        margin: 0 0 0 0;
+                        padding: 0;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        cursor: pointer;
+
+                        a {
+                            width: 100%;
+                            height: 50%;
+                            margin: 0;
+                            padding: 0;
+                            display: flex;
+                            justify-content: center;
+                            color: black;
+                            text-decoration: none;
+
+                            img {
+                                width: 25%;
+                                margin: 0;
+                                padding: 0;
+                                border-radius: 20px;
+                            }
+
+                            div {
+                                display: none;
+                            }
+                        }
+
+
+                    }
+
+                    #climb:hover, #spaceTravel:hover, #enlacarreterano:hover {
+                        a {
+                            width: 100%;
+                            margin: 0;
+                            padding: 0;
+                            display: flex;
+                            justify-content: center;
+                            color: black;
+                            text-decoration: none;
+
+                            img {
+                                width: 25%;
+                                margin: 0;
+                                padding: 0;
+                                border-radius: 20px;
+                            }
+
+                            div {
+                                width: 50%;
+                                display: block;
+                                justify-content: center;
+                                align-items: center;
+
+                                h3 {
+                                    width: 100%;
+                                    margin: 0;
+                                    font-size: 15px;
+                                }
+
+                                p {
+                                    width: 100%;
+                                    margin: 0;
+                                    padding: .5rem;
+                                    font-size: 12px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            #tecnologiasVJ {
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+
+                ul {
+                    width: 40%;
+                    margin: 0 0 1rem 0;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+
+                    img {
+                        width: 15%;
+                        margin: 0;
+                        padding: 0;
+                        transition: .5s;
+                    }
+
+                    #asprite:hover {
+                        width: 16%;
+                        margin: 0;
+                        padding: 0;
+                        border-radius: 50%;
+                        background-color: grey;
+                    }
+
+                    #unity:hover {
+                        width: 16%;
+                        margin: 0;
+                        padding: 0;
+                        border-radius: 50%;
+                        background-color: white;
+                    }
+
+                    #visualc:hover {
+                        width: 16%;
+                        margin: 0;
+                        padding: 0;
+                        border-radius: 50%;
+                        background-color: #24A9EC;
+                    }
+
+                    #gith:hover {
+                        width: 16%;
+                        margin: 0;
+                        padding: 0;
+                        border-radius: 50%;
+                        background-color: white;
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        width: 100%;
+        height: 30px;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        bottom: 0px;
+        display: flex;
+        justify-content: end;
+        box-sizing: border-box;
+        background-color: #050C9C;
+
+        ul {
+            width: 10%;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            justify-items: center;
+
+            li {
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                a {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    img {
+                        width: 100%;
+                        margin: 0;
+                        padding: 0;
+                        transition: .5s;
+                    }
+                }
+
+            }
+        }
+
+        #gith:hover {
+            border-radius: 50%;
+            background-color: white;
+        }
+
+        #dic:hover {
+            border-radius: 50%;
+            background-color: #5865F2;
+        }
+
+        #link:hover {
+            border-radius: 50%;
+            background-color: #0A66C2;
+        }
+
+        #itch:hover {
+            border-radius: 50%;
+            background-color: #FA5C5C;
+        }
+    }
+}

@@ -1,3 +1,3 @@
-import Presentacion from "../componentes/Presentacion/Presentacion.jsx";
+import Presentacion from '../Components/Presentacion/Presentacion';
 
 export const Presentaciones = () => <Presentacion/>;
