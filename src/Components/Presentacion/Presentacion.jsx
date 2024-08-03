@@ -155,7 +155,7 @@ function Presentacion() {
                 <ul>
                     <li><a href="https://github.com/Kevni-Rodrigo-Wawryniuk?tab=repositories"> <img id='gith' src={github} alt="" /> </a></li>
                     <li><a href="https://discord.gg/mMdAMRSA"> <img id='dic' src={discord} alt="Discord" /></a></li>
-                    <li><a href="https://www.linkedin.com/in/kevin-rodrigo-wawryniuk-7932a020b/"> <img id='link' src={linkedin} alt="" /> </a></li>
+                    <li><a href="https://www.linkedin.com/in/kevin-rodrigo-w-989402321/"> <img id='link' src={linkedin} alt="" /> </a></li>
                     <li><a href="https://kwawryniuk.itch.io"> <img id='itch' src={itch} alt="" /> </a></li>
                 </ul>
             </footer>
